@@ -32,6 +32,9 @@ const Cartpage = () => {
     fetchUsers();
   }, []);
 
+  
+
+
   useEffect(() => {
     const savedCart = localStorage.getItem("cart");
     if (savedCart) {
@@ -259,3 +262,9 @@ const Cartpage = () => {
 };
 
 export default Cartpage;
+
+
+
+
+
+
