@@ -8,6 +8,7 @@ import { MdInsights } from "react-icons/md";
 import { BiHelpCircle } from "react-icons/bi";
 import { BsToggleOn } from "react-icons/bs";
 import Image from "next/image"; // Import Next.js Image component
+import Link from "next/link";
 
 const Dashboard = () => {
   return (
