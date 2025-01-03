@@ -253,6 +253,14 @@ const Dashboard = () => {
                 <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">
                   view all
                 </button>
+
+                 <Link href="/cart">
+                <button className="bg-blue-500 text-white px-4 py-2 gap-5 rounded-lg hover:bg-blue-600 transition">
+                  Rent Now
+                </button>
+                </Link>
+
+                
               </div>
             </div>
           </div>
